@@ -1,0 +1,13 @@
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Output files
+outputs/*.mp4
+outputs/*.png
+
+# Video samples (large files)
+videos/*.mp4
