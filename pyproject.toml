@@ -1,0 +1,15 @@
+[project]
+name = "mediapipe-hands"
+version = "0.1.0"
+description = "MediaPipe Hands 手部關鍵點追蹤與剪刀石頭布手勢分析專案"
+authors = [
+    { name = "Linjacky1970", email = "lin.mlang88@gmail.com" }
+]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "mediapipe==0.10.9",
+    "numpy",
+    "opencv-python",
+    "yt-dlp",
+    "imageio-ffmpeg",
+]

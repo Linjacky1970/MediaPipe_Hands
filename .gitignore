@@ -1,13 +1,26 @@
-# Virtual Environment
+# Python virtual environment
 .venv/
+venv/
+ENV/
 
-# Python cache
+# Python byte-compiled / cache
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Output files
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Project outputs & temporary media
 outputs/*.mp4
-outputs/*.png
+outputs/*.txt
+captures/
+videos/*
 
-# Video samples (large files)
-videos/*.mp4
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
